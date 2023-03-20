@@ -73,7 +73,8 @@ public class Intervals {
             for (int i = 0; i < 3; i++) {
                 if(i==noteName.length())
                     break;
-                if (noteName.substring(i, i + 1).equals("b")) {
+                if (noteName.
+                        substring(i, i + 1).equals("b")) {
                     notePositionInList--;
                 }
                 if (noteName.substring(i, i + 1).equals("#")) {
